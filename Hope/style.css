@@ -96,6 +96,7 @@ header .logo
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
+  text-decoration: transparent;
 }
 .text h3
 {
