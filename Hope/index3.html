@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="./assets/img/android-chrome-192x192.png">
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+    <title>Prayer Request</title>
+</head>
+<body>
+    <a
+    class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+    href="./index.html"
+    ><i
+      class="text-orange-500 fa fa-backward text-lg leading-lg"
+    ></i
+    ><span class="lg:hidden inline-block ml-2">Main Page</span></a>
+
+    <div class="Contact-title">
+        <h1>Request for prayer</h1>
+        <h2></h2>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="POST" action="contact-form.php">
+            <input name="name" type="text" class="form-control" placeholder="your name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="your email" required>
+            <br>
+            <textarea name="" class="form-control" placeholder="message" cols="30" rows="10" required></textarea><br>
+            <input type="submit"  class="form-control" value="SEND MESSAGE">
+            
+
+        </form>
+    </div>
+    
+</body>
+</html>

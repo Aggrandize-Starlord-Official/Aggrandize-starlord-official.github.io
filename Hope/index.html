@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="./assets/img/android-chrome-192x192.png">
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+    <title>St.Paul's Centenary Church</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Welcome</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="./assets/img/f1.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>St.Paul's Centenary Church </h2> 
+          <p>SUNDAYS @ 7:30AM, 9:30AM</p>
+          <a href="https://www.facebook.com/centenaryvja/live_videos/?ref=page_internal" target="_blank">Live Stream</a>
+        </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com/centenaryvja/" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="./index1.html" target="_blank">About Us</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="./index3.html" target="_blank">Prayer Request</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="./index2.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+          const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+      </script>
+    
+</body>
+</html>
